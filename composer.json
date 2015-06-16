@@ -1,25 +1,29 @@
 {
-    "name": "bc/cmf-skeleton",
-    "description": "skeleton application",
-    "version": "0.1",
-    "homepage": "https://github.com/theinpu/cmf-skeleton",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "inpu",
-            "email": "theinpu@gmail.com"
-        }
-    ],
-    "require": {
-        "php": ">=5.3",
-        "bc/cmf": ">=0.1.6"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "3.7.*"
-    },
-    "autoload": {
-        "psr-0": {
-            "app": "."
-        }
+  "name": "bc/cmf-skeleton",
+  "description": "skeleton application",
+  "version": "0.1.1",
+  "homepage": "https://github.com/theinpu/cmf-skeleton",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "inpu",
+      "email": "theinpu@gmail.com"
     }
+  ],
+  "require": {
+    "php": ">=5.3",
+    "bc/cmf": ">=0.1.6",
+    "bc/pdo": "0.1.*",
+    "bc/memcacher": ">=0.1.2",
+    "bc/model": ">=0.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*",
+    "bc/generator": ">=0.1.6"
+  },
+  "autoload": {
+    "psr-0": {
+      "app": "."
+    }
+  }
 }
