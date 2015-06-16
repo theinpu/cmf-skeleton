@@ -1,0 +1,25 @@
+{
+    "name": "bc/cmf-skeleton",
+    "description": "skeleton application",
+    "version": "0.1",
+    "homepage": "https://github.com/theinpu/cmf-skeleton",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "inpu",
+            "email": "theinpu@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "bc/cmf": ">=0.1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "app": "."
+        }
+    }
+}
